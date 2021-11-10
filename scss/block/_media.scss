@@ -1,0 +1,116 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;
+
+    .promo__header {
+        font-size: 40px;
+    }
+    .promo_subheader {
+        font-size: 22px;
+    }
+    }
+
+}
+@media (max-width: 991px) {
+    .container {
+        width: 720px;
+    
+    .button.button_main {
+        width: 250px;
+    }
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 540px;
+    .header__oficial span {
+        display: inline;
+    }
+    .header__phone {
+        font-size: 16px;
+    }
+    .promo__wrapper {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .promo__header {
+        font-size: 37px;
+    }
+    .promo_subheader {
+        font-size: 20px;
+    }
+    .benefits__block {
+        max-width: 157px;
+    }
+    .benefits_block_subtitle {
+        font-size: 14px;
+    }
+    ul.slick-dots {
+        display: none;
+    }
+    .carousel__iner {
+        img {
+            width: 100%;
+        }
+    }
+    }
+}
+@media (max-width: 575px) {
+      .consultation {
+        padding: 20px 0 0 0;
+    }
+    .container {
+        width: 100%;
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__oficial {
+        margin-top: 20px;
+    }
+    .header__oficial span {
+        display: block;
+    }
+    .header__contacts {
+        margin-top: 20px;
+    }
+    .promo__header {
+        font-size: 27px;
+        text-align: center;
+    }
+    .promo_subheader  {
+        font-size: 17px;
+        text-align: center;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+    .promo__icons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .benefits__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .consultation__title {
+        font-size: 30px;
+        text-align: center;
+    }
+    .consultation__descr {
+        text-align: center;
+    }
+    .feed-form {
+        width: 100%;
+        min-height: 290px;
+        align-items: center;
+    }
+    .button.button_submit {
+        width: 198px;
+    }
+    }
+}
+
+

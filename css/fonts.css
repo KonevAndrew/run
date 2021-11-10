@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Museo Sans 300 Light';
+    src: url('../fonts/');
+    src: url('../fonts/?#iefix') format('embedded-opentype'),
+    url('../fonts/MuseoSansCyrl-300.woff') format('woff'),
+    url('../fonts/MuseoSansCyrl-300.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
