@@ -39,6 +39,12 @@
             display: block;
             margin: 0 auto;
             margin-bottom: 20px;
+              &:hover {
+                content: "";
+                transition: 0.3s all;
+                color: #ffffff;
+                transform: scale(1.1);
+             }
         }
         
     }

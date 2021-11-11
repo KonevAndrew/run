@@ -19,6 +19,14 @@
     flex-direction: column;
     align-items: center;
      max-width: 216px;
+     img{
+        &:hover {
+            content: "";
+            transition: 0.3s all;
+            color: #ffffff;
+            transform: scale(1.3);
+             }
+     }
     
 }
 .benefits_block_subtitle {

@@ -6,6 +6,12 @@
     width: 250px;
     img {
         width: 100%;
+    &:hover {
+        content: "";
+        transition: 0.3s all;
+        color: #ffffff;
+        transform: scale(1.1);
+  }
     }
 }
 .header__oficial {
@@ -16,7 +22,6 @@
     span {
         display: block;
         font-size: 18px;
-        
     }
 }
 .header__phone {

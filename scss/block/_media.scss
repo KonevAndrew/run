@@ -18,8 +18,18 @@
     .button.button_main {
         width: 250px;
     }
+    .catalog__content{
+        justify-content: space-around;
+    }
+    .reviews__about {
+        max-width: 500px;
+    }
+    .reviews__descr {
+        font-size: 16px;
+    }
     }
 }
+
 @media (max-width: 767px) {
     .container {
         width: 540px;
@@ -54,11 +64,34 @@
             width: 100%;
         }
     }
+    .catalog-item {
+        width: 260px;
     }
+    .catalog-item__price {
+        font-size: 16px;
+    }
+    .catalog-item__btn {
+        width: 105px;
+    }
+    .reviews__img {
+        width: 129px;
+        height: 129px;
+        margin-right: 15px;
+    }
+} 
 }
 @media (max-width: 575px) {
       .consultation {
         padding: 20px 0 0 0;
+    }
+    .benefits {
+        min-height: 960px;
+    }
+    .footer__info {
+        width: 100%;
+    }
+    .footer__addr {
+        font-size: 18px;
     }
     .container {
         width: 100%;
@@ -96,11 +129,12 @@
         align-items: center;
     }
     .consultation__title {
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
     }
     .consultation__descr {
         text-align: center;
+        font-size: 18px;
     }
     .feed-form {
         width: 100%;
@@ -109,6 +143,21 @@
     }
     .button.button_submit {
         width: 198px;
+    }
+    .catalog__tabs {
+        flex-wrap: wrap;
+    }
+    .catalog__tab {
+        margin-bottom: 15px;
+    }
+    .reviews__wrapper {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .reviews__img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
     }
     }
 }

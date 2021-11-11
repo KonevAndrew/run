@@ -9,6 +9,10 @@
     font-size: 12px;
     text-transform: uppercase;
     margin-top: 5px;
+        &:hover {
+        box-shadow: 3px 3px 20px #C70101;
+        border: none;
+    }
 }
 .button.button_main {
     margin-top: 67px;
