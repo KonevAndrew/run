@@ -1,0 +1,186 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 900px;
+
+    .promo__header {
+        font-size: 40px;
+    }
+    .promo_subheader {
+        font-size: 22px;
+    }
+    }
+
+}
+@media (max-width: 991px) {
+    .container {
+        width: 720px;
+    
+    .button.button_main {
+        width: 250px;
+    }
+    .catalog__content{
+        justify-content: space-around;
+    }
+    .reviews__about {
+        max-width: 500px;
+    }
+    .reviews__descr {
+        font-size: 16px;
+    }
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 540px;
+    .header__oficial span {
+        display: inline;
+    }
+    .header__phone {
+        font-size: 16px;
+    }
+    .promo__wrapper {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    .promo__header {
+        font-size: 37px;
+    }
+    .promo_subheader {
+        font-size: 20px;
+    }
+    .benefits__block {
+        max-width: 157px;
+    }
+    .benefits_block_subtitle {
+        font-size: 14px;
+    }
+    ul.slick-dots {
+        display: none;
+    }
+    .carousel__iner {
+        img {
+            width: 100%;
+        }
+    }
+    .catalog-item {
+        width: 260px;
+    }
+    .catalog-item__price {
+        font-size: 16px;
+    }
+    .catalog-item__btn {
+        width: 105px;
+    }
+    .reviews__img {
+        width: 129px;
+        height: 129px;
+        margin-right: 15px;
+    }
+} 
+}
+@media (max-width: 575px) {
+      .consultation {
+        padding: 20px 0;
+    }
+    .benefits {
+        min-height: 930px;
+    }
+    .footer__info {
+        width: 100%;
+    }
+    .footer__addr {
+        font-size: 18px;
+    }
+    .container {
+        width: 100%;
+    .header {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header__oficial {
+        margin-top: 20px;
+    }
+    .header__oficial span {
+        display: block;
+    }
+    .header__contacts {
+        margin-top: 20px;
+    }
+    .promo__header {
+        font-size: 27px;
+        text-align: center;
+    }
+    .promo_subheader  {
+        font-size: 17px;
+        text-align: center;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+    .promo__icons {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .benefits__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits__block {
+        img {
+            margin-top: 10px;
+        }
+    }
+    .benefits_block_subtitle {
+        margin-top: 10px;
+    }
+    .benefits_block_dsc {
+        margin-top: 10px;
+    }
+    .consultation__title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .consultation__descr {
+        text-align: center;
+        font-size: 18px;
+    }
+    .feed-form {
+        width: 100%;
+        min-height: 290px;
+        align-items: center;
+    }
+    .button.button_submit {
+        width: 198px;
+    }
+    .catalog__tabs {
+        flex-wrap: wrap;
+    }
+    .catalog__tab {
+        margin-bottom: 15px;
+    }
+    .reviews__wrapper {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .reviews__img {
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+    }
+    }
+    .modal {
+        width: 255px;
+    .feed-form{
+        width: 100%;
+    }
+    .modal__close {
+        right: -30px;
+        line-height: 9px;
+    }
+    }
+}
+
+

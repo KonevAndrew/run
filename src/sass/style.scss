@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+@import 'block/promo';
+@import 'block/header';
+@import 'block/buttons';
+@import 'block/benefits';
+@import 'block/consultation';
+@import 'block/forms';
+@import 'block/carousel';
+@import 'block/catalog';
+@import 'block/reviews';
+@import 'block/footer';
+@import 'block/modal';
+@import 'block/media';
